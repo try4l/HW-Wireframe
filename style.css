@@ -7,8 +7,6 @@ body {
 	text-align: center;
 	line-height: 100px;
 	background-color: #777;
-	border: 1px solid red;
-	/*box-sizing: border-box;*/
 }
 header {
 	position: relative;
@@ -27,7 +25,6 @@ nav {
 footer {
 	display: block;
 	width: 960px;
-	/*position: relative;*/
 	text-align: center;
 	height: 100px;
 	background-color: white;
@@ -35,58 +32,38 @@ footer {
 }
 section {
 	display: inline-block;		
-	width: 495px;		
+	width: 520px;		
 	height: 275px;		
 	line-height: 80px;
 	background-color: white;
+	margin: 10px 0;
 }
 aside {
 	float: right;
-	width: 460px;
+	width: 420px;
 	height: 275px;	
 	background-color: white;
+	margin: 10px 0 10px 20px;
 }
 article {
-	width: 495px;
+	position: relative;
+	left: 20px;
+	width: 475px;
 	height: 180px;
-	line-height: normal;
+	line-height: 80px;
 	color: white;
-	padding: 10px 0;
 	background-color: #777;
 }
-article h1 {
+.wrap h1, .wrap p {
+	position: relative;
+	width: 430px;
+	height: 40px;
+	line-height: 40px;
+	left: 20px;
+	top: -20px;
+	margin: 10px 0;
+	padding: 0;
 	color: #bebebe;
-	height: 30px;
-	line-height: normal;
-	padding: 10px;
 	background-color: white;
 }
-article p {
-	color: #bebebe;
-	height: 30px;
-	line-height: normal;
-	padding: 10px;
-	background-color: white;
-}
-.clear {
-	content: “”;
-	display: block;
-	clear: both;	
-}
-.clearfix:after {
-	content: “”;
-	display: block;
-	clear: both;
-}
 
-h1 {}
-h2 {}
-h3 {}
-p {}
-
-.showpos {
-	border: 1px solid red;
-}
-.showpos2 {
-	border: 1px dotted blue;
-}
